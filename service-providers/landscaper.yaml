@@ -1,0 +1,6 @@
+apiVersion: openmcp.cloud/v1alpha1
+kind: ServiceProvider
+metadata:
+  name: "landscaper"
+spec:
+  image: "foo:1.2.3"
