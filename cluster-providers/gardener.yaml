@@ -3,6 +3,6 @@ kind: ClusterProvider
 metadata:
   name: "gardener"
 spec:
-  image: "foo:1.2.3"
+  image: "ghcr.io/openmcp-project/images/cluster-provider-gardener:v0.1.0"
   imagePullSecrets:
     - name: "openmcp-imgpull"
