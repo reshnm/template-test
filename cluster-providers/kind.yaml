@@ -4,3 +4,5 @@ metadata:
   name: "kind"
 spec:
   image: "foo:1.2.3"
+  imagePullSecrets:
+    - name: "openmcp-imgpull"
