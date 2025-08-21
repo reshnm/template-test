@@ -1,0 +1,6 @@
+apiVersion: openmcp.cloud/v1alpha1
+kind: ClusterProvider
+metadata:
+  name: "gardener"
+spec:
+  image: "foo:1.2.3"
