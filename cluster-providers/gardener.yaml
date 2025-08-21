@@ -1,7 +1,7 @@
 apiVersion: openmcp.cloud/v1alpha1
 kind: ClusterProvider
 metadata:
-  name: gardener
+  name: "gardener"
 spec:
-  image: foo:1.2.3
- foo:1.2.3
+  image: "foo:1.2.3"
+:1.2.3
